@@ -49,8 +49,8 @@ Route::group([
 ], function() {
     Route::get("/", "getCar");
     Route::post("/create", "createCar");
-    Route::put("/{cars}", "updateCar");
-    Route::delete("/{cars}", "deleteCar");
+    Route::put("/{car}", "updateCar");
+    Route::delete("/{car}", "deleteCar");
 });
 
 
